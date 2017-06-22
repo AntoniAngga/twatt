@@ -51,7 +51,7 @@ let twitterPost = function (req,res) {
             if (e) {
                 console.error(e);
             }
-            console.log(data);
+            res.send(data);
         });
 };
 
